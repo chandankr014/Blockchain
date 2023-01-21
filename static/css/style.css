@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+* {
+    font-family: Roboto;
+}
+
+.squares {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon1,
+.icon2 {
+      width:  750px;
+      height: 150px;
+      background: #F5F8FA;
+      padding: 10px 20px;
+}
+  
+  
+.icon1 {
+    margin-right: 10%;
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }   
+  
+.icon2 {
+    border-style: ridge;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px 40px;
+    margin: 10px;
+    top:50%;
+    background-color:rgb(25, 25, 84);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+.btn:hover {
+    background-color:#ff0066;
+    transition: 0.5s;
+}
+.btn:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
+.btn:active {
+    background-color:#3d728e;
+}
+
+.links {
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    margin: 10px;
+    top:50%;
+    background-color:rgb(25, 70, 121);
+    color: #fff;
+    border:none;
+    border-radius:40px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0);
+}
+.links:hover {
+    background-color: aqua;
+    transition: 0.3s;
+}
+
+hr.ahr {
+    border: 0px;
+    height: 100px;
+}
+/* Gradient transparent - color - transparent */
+hr.bhr {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
